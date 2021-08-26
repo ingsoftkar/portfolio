@@ -66,7 +66,7 @@ CONTAINER
 #text-header:after{
   width: 100%;
   height: 3px;
-  background: url(../img/line.png);
+ /*  background: url(../img/line.png); */
   margin-top: 15px;
   content: '';
   display: block;
@@ -173,10 +173,27 @@ EXPERIENCES
 .job .where{
   font-size: 0.8em;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 .job .year{
   font-size: 0.8em;
   opacity: 0.7;
+}
+
+/*.job .profession .icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.job .profession::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}*/
+
+.job .profession .before{
+  color:#81af4d
 }
 .job .profession{
   font-size: 1.0em;
@@ -253,7 +270,7 @@ SKILLS
 }
 .skills-legend div{
   width: 25%;
-  display: inline-block;
+/*   display: inline-block; */
   font-size: 0.8em;
   color: #a9a9a9;
   float: left;
@@ -274,12 +291,7 @@ SKILLS
 .legend-right.legend:before{
   margin-right: 0;
 }
-/*.legend-left:nth-child(2) span{
-  margin-left: -25px;
-}
-.legend-right:nth-child(3) span{
-  margin-right: -20px;
-}*/
+
 .legend-right{
   text-align: right;
 }
@@ -295,7 +307,7 @@ LANGUAGES
 #language-skills .skill .icons{
   width: 111px;
   height: 14px;
-  background: url(../img/star-grey.png) no-repeat;
+/*   background: url(../img/star-grey.png) no-repeat; */
 }
 #language-skills .skill .icons-red{
   background: url(../img/star-red.png) no-repeat;
