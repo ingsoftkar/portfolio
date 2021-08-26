@@ -22,12 +22,12 @@ body{
 CONTAINER
 *******************************************/
 .container{
-  margin-top: 80px;
+  margin-top: 78px;
   margin-bottom: 15px;
   background: #fff;
 }
 #photo-header{
-  margin-top: -75px;
+  margin-top: -80px;
 }
 #photo{
   width: 160px;
@@ -46,7 +46,7 @@ CONTAINER
 #text-header h1{
   margin: 0;
   padding: 0;
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -1px;
