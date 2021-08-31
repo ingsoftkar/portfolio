@@ -216,7 +216,7 @@ CONTACT
   padding: 10px;
   border-right: 1px solid #aaa;
   border-bottom: 1px solid #aaa;
-  opacity: 0.2;
+  opacity: 0.7;
 }
 .contact-item:last-child .icon{
   border-bottom: none;
@@ -254,6 +254,9 @@ SKILLS
   text-overflow: ellipsis;
   font-size: 0.8em;
   font-weight: 600;
+}
+.item-skills img{
+  max-height: 20px;
 }
 .skills-legend{
   margin-top: 15px;
