@@ -57,16 +57,20 @@ CONTAINER
   font-weight: 800;
  /* line-height: 1.5em;*/
 }
-#text-header h1 span{
+/*#text-header h1 span{
   color: #F0563D;
 }
 #text-header h1 sup{
   opacity: 0.5;
+}*/
+#text-header h2 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 #text-header:after{
   width: 100%;
   height: 3px;
- /*  background: url(../img/line.png); */
   margin-top: 15px;
   content: '';
   display: block;
@@ -174,23 +178,12 @@ EXPERIENCES
   font-size: 0.8em;
   font-weight: bold;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 .job .year{
   font-size: 0.8em;
   opacity: 0.7;
 }
-
-/*.job .profession .icon::before {
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-.job .profession::before {
-  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
-}*/
 
 .job .profession .before{
   color:#81af4d
@@ -204,6 +197,7 @@ EXPERIENCES
 .job .description{
   font-size: 0.7em;
   line-height: 1.5em;
+  margin-left: 20px;
 }
 /*******************************************
 CONTACT
@@ -243,6 +237,18 @@ CONTACT
 /*******************************************
 SKILLS
 *******************************************/
+.item-stack{
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: white;
+  color: black;
+  height: 20px;
+  padding: 0;
+  font-weight: normal;
+  font-size: 0.7em;
+}
 .item-skills{
   height: 30px;
   background: #37A000;
