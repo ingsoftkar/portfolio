@@ -112,7 +112,7 @@ const projects = () => {
       <Layout className="pt-24 xs:pt-16">
           <AnimatedText 
               className='mb-16 sm:mb-8 sm:!text-6xl xs:!text-4xl lg:!text-7xl'
-              text="Knowledge trumps imagination!"               
+              text="outstanding Projects!"               
             />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xs:gap-7 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                 <div className="col-span-12">
