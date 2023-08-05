@@ -9,7 +9,7 @@ import {motion} from 'framer-motion'
 import { GithubIcon } from '../components/Icon'
 import featured1 from '../../public/images/projects/1-featured.png'
 import normal1 from '../../public/images/projects/1-normal.jpg'
-import normal2 from '../../public/images/projects/2-normal.jpg'
+import normal2 from '../../public/images/projects/2-normal.png'
 import featured2 from '../../public/images/projects/2-featured.png'
 //import normal2 from '../../public/images/projects/pac.png'
 
@@ -117,7 +117,7 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xs:gap-7 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                 <div className="col-span-12">
                  < FeaturedProject 
-                    title="Real Estate Home Panel Owners Clients"
+                    title="Real Estate Home Owners & Clients Panel"
                     summary="feature-rich Dashboard Apps responsive, user friendly, with multiple charts. 
 It shows detail regarding all the requirements. You can easily adjust to your business, ecommerce, maintenance, real time monitoring, real estate, etc."
                     link="/"
@@ -134,24 +134,23 @@ It shows detail regarding almost all the cryptocurrency. You can easily convert 
 local currency."
                     link="/"
                     github="/"
-                    type="Featured Project"
+                    type="Special Project"
                     img={normal1}
                  />
                 </div>
                 <div className="col-span-6 sm:col-span-12">
                  < NormalProject 
-                    title="Crypto Screener Application"
-                    summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                    title="Local Bands Shows App"
+                    summary="A feature-rich App using React Native, Tailwind CSS, Context API, React Router. It shows the shows calendar of all the bands in your neighbourhood, tickets sale, comments, valorations and payment gateway."
                     link="/"
                     github="/"
-                    type="Featured Project"
+                    type="Special Project"
                     img={normal2}
                  />
                 </div>
                 <div className="col-span-12">
                   <FeaturedProject 
-                    title="Airbnb-like Home Dashboard Owners Clients"
+                    title="Airbnb-like Home Owners & Clients Panel"
                     summary="APP (Android/ios) similar to airbnb/booking that can give a solution for local booking accommodations, simple but functional. App administrator profile owner and guest
                     
                     ."
@@ -171,6 +170,17 @@ It shows detail regarding almost all the cryptocurrency. You can easily convert 
                     img={featured2}
                   />
                 </div> */}
+                 <div className="col-span-6 sm:col-span-12">
+                 < NormalProject 
+                    title="Crypto Screener Application"
+                    summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                    link="/"
+                    github="/"
+                    type="Special Project"
+                    img={normal2}
+                 />
+                </div>
                <div className="col-span-6 sm:col-span-12">
                  < NormalProject 
                     title="Full Responsive Websites"
@@ -179,21 +189,11 @@ It shows detail regarding almost all the cryptocurrency. You can easily convert 
 local currency."
                     link="/"
                     github="/"
-                    type="Featured Project"
+                    type="Special Project"
                     img={normal1}
                  />
                 </div>
-                <div className="col-span-6 sm:col-span-12">
-                 < NormalProject 
-                    title="Crypto Screener Application"
-                    summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-                    link="/"
-                    github="/"
-                    type="Featured Project"
-                    img={normal2}
-                 />
-                </div>
+               
 
           </div>
       </Layout>

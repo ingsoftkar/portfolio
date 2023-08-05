@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 const CustomLink = ({href, title, className=""}) => {
   const router=useRouter()
-
+console.log(href,router)
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
@@ -67,9 +67,9 @@ const Navbar = () => {
       
     <nav className="flex items-center justify-center">
         <CustomLink href={"/"} title={"Home"} className={"mr-4  rounded relative group "} />
-        <CustomLink  href="about" title="Skills" className="mx-4 rounded relative group "/>          
-        <CustomLink href="projects" title="Projects" className="mx-4  rounded relative group " />          
-        <CustomLink href="hire-me" title="Hire me" className="ml-4  rounded relative group " />
+        <CustomLink  href="/about" title="Skills" className="mx-4 rounded relative group "/>          
+        <CustomLink href="/projects" title="Projects" className="mx-4  rounded relative group " />          
+        <CustomLink href="/hire-me" title="Hire me" className="ml-4  rounded relative group " />
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap lg:mt-2 ">
@@ -104,11 +104,11 @@ const Navbar = () => {
       
       <CustomMobileLink toggle={handleClick}  href={"/"} title={"Home"} className={"mr-4  rounded relative group "} />
 
-      <CustomMobileLink toggle={handleClick}   href="about" title="Skills" className="mx-4 rounded relative group "/>
+      <CustomMobileLink toggle={handleClick}   href="/about" title="Skills" className="mx-4 rounded relative group "/>
         
-      <CustomMobileLink toggle={handleClick}  href="projects" title="Projects" className="mx-4  rounded relative group " />
+      <CustomMobileLink toggle={handleClick}  href="/projects" title="Projects" className="mx-4  rounded relative group " />
         
-      <CustomMobileLink toggle={handleClick}  href="hire-me" title="Hire me" className="ml-4  rounded relative group " />
+      <CustomMobileLink toggle={handleClick}  href="/hire-me" title="Hire me" className="ml-4  rounded relative group " />
    
     </nav>
 
