@@ -112,7 +112,7 @@ const projects = () => {
       <Layout className="pt-24 xs:pt-16">
           <AnimatedText 
               className='mb-16 sm:mb-8 sm:!text-6xl xs:!text-4xl lg:!text-7xl'
-              text="outstanding Projects!"               
+              text="latest Projects!"               
             />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xs:gap-7 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
                 <div className="col-span-12">
@@ -193,9 +193,19 @@ local currency."
                     img={normal1}
                  />
                 </div>
-               
-
-          </div>
+               <div className="col-span-12 sm:col-span-12 flex justify-center">
+               <Link className="flex items-center justify-center rounded-lg border-2 border-solid bg-dark text-lg font-semibold
+                    capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
+                  dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
+                  p-2.5 px-6 md:p-2 md:px-4 md:text-base w-[200px]"  href="/hire-me">
+                    Hire me
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="h-auto ml-1 !w-6 md:!w-4">
+                      <path fill="none" d="M0 0h24v24H0z"></path>
+                      <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m-5 0h5v5"></path>
+                    </svg>
+                  </Link>
+                </div>
+          </div>{/* Grid */}
       </Layout>
    </main>
    </>

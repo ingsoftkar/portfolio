@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 
 const CustomLink = ({href, title, className=""}) => {
   const router=useRouter()
-console.log(href,router)
+  
   return (
     <Link href={href} className={`${className} relative group`}>
       {title}
@@ -48,7 +48,7 @@ const Navbar = () => {
   return (
     <header className="w-full px-32 xs:px-8 py-8 font-medium flex items-center justify-between xs:justify-start bg-white fixed top-0 z-10">
 
-<button 
+    <button 
         type="button" 
         className="flex-col items-center justify-center lg:flex hidden" 
         aria-controls="mobile-menu" 
@@ -65,7 +65,7 @@ const Navbar = () => {
     <div className="w-full flex justify-between items-center lg:hidden">
 
       
-    <nav className="flex items-center justify-center">
+      <nav className="flex items-center justify-center">
         <CustomLink href={"/"} title={"Home"} className={"mr-4  rounded relative group "} />
         <CustomLink  href="/about" title="Skills" className="mx-4 rounded relative group "/>          
         <CustomLink href="/projects" title="Projects" className="mx-4  rounded relative group " />          

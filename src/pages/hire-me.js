@@ -44,7 +44,7 @@ const FeaturedProject = ({title,img,link}) => {
             <div className='w-6'><WhatsappIcon /></div> <div>+56936156199</div> 
             <div className='w-6'><GmailIcon   /></div>  <div>ingsoftkar@gmail.com</div> 	
             <div className='w-6'><SkypeIcon   /></div><div>ingsoftkar@hotmail.com</div>
-            <div className='w-6'><AssistIcon  /></div><div>America / Europe timezones</div>
+            <div className='w-6'><AssistIcon  /></div><div>America / Europe timezone</div>
           </div>
          
       </div> 
@@ -63,9 +63,9 @@ const projects = () => {
     </Head>
     <main className="flex w-full flex-col items-center justify-center">
       
-      <Layout className="pt-16">
+      <Layout className="pt-20 xs:pt-16">
           <AnimatedText 
-              text="Let's boost that project up!"               
+              text="Let's work that project out!"               
               className='inline-block text-dark dark:text-light sm:!text-6xl xs:!text-4xl lg:!text-7xl font-bold capitalize  mb-16  sm:mb-8'
             />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xs:gap-7 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">

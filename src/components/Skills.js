@@ -4,7 +4,7 @@ import ItemSkill from './SkillItem'
 const Skills = () => {
   return (
     <>
-<h2 className="font-bold text-8xl mt-32 w-full text-center">Skills</h2>
+{/* <h2 className="font-bold text-8xl mt-32 w-full text-center">Skills</h2> */}
 <div className="w-full relative flex items-center justify-center pt-8">
 
 

@@ -27,8 +27,8 @@ export default function Home() {
                 <Link className="flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
                     capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
                   dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
-                   md:p-2 md:px-4 md:text-base"  href="/hire-me">
-                    Hire me 
+                   md:p-2 md:px-4 md:text-base"  href="/about">
+                    Browse my Skills 
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="h-auto ml-1 !w-6 md:!w-4">
                       <path fill="none" d="M0 0h24v24H0z"></path>
                       <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m-5 0h5v5"></path>
