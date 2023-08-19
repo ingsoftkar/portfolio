@@ -8,10 +8,11 @@ import Image from 'next/image'
 import {motion} from 'framer-motion'
 import { GithubIcon } from '../components/Icon'
 import featured1 from '../../public/images/projects/1-featured.png'
-import normal1 from '../../public/images/projects/1-normal.jpg'
+import normal1 from '../../public/images/projects/1-normal.png'
 import normal2 from '../../public/images/projects/2-normal.png'
 import featured2 from '../../public/images/projects/2-featured.png'
-//import normal2 from '../../public/images/projects/pac.png'
+import normal3 from '../../public/images/projects/3-normal.jpg'
+import normal4 from '../../public/images/projects/4-normal.jpg'
 
 const FramerImage=motion(Image)
 
@@ -128,7 +129,7 @@ It shows detail regarding all the requirements. You can easily adjust to your bu
                 </div>
                  <div className="col-span-6 sm:col-span-12">
                  < NormalProject 
-                    title="Full Responsive Websites"
+                    title="Responsive Online Shop"
                     summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
@@ -140,7 +141,7 @@ local currency."
                 </div>
                 <div className="col-span-6 sm:col-span-12">
                  < NormalProject 
-                    title="Local Bands Shows App"
+                    title="Concerts Booking App"
                     summary="A feature-rich App using React Native, Tailwind CSS, Context API, React Router. It shows the shows calendar of all the bands in your neighbourhood, tickets sale, comments, valorations and payment gateway."
                     link="/"
                     github="/"
@@ -160,16 +161,7 @@ local currency."
                     img={featured2}
                   />
                 </div>
-               {/*  <div className="col-span-12">
-                  <FeaturedProject 
-                    title="Educational and psychopedagogical evaluation web"
-                    summary="It helps to observe, know, prevent and enhance the learning and development of children from 8 to 12 years old."
-                    link="/"
-                    github="/"
-                    type="Featured Project"
-                    img={featured2}
-                  />
-                </div> */}
+              
                  <div className="col-span-6 sm:col-span-12">
                  < NormalProject 
                     title="Crypto Screener Application"
@@ -178,7 +170,7 @@ It shows detail regarding almost all the cryptocurrency. You can easily convert 
                     link="/"
                     github="/"
                     type="Special Project"
-                    img={normal2}
+                    img={normal3}
                  />
                 </div>
                <div className="col-span-6 sm:col-span-12">
@@ -190,7 +182,7 @@ local currency."
                     link="/"
                     github="/"
                     type="Special Project"
-                    img={normal1}
+                    img={normal4}
                  />
                 </div>
                <div className="col-span-12 sm:col-span-12 flex justify-center">
